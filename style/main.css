@@ -85,4 +85,37 @@ body {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+.listinline  {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+.listinline li i,
+.listinline span {
+  display: block;
+  text-align: center;
+}
+.listinline li i {
+  font-size: 20px;
+  margin-bottom: 7px;
+}
+.listinline span {
+  font-size: 12px;;
+}
+.unmute .listinline li:first-child {
+  margin-right: 20px;
+}
+.share .listinline li {
+  margin-right: 20px;
+}
+.leave a {
+  color: red;
+  text-decoration: none;
+  font-size: 20px;
+}
+.leave a:hover {
+  color: yellow;
 }
